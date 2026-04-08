@@ -17,7 +17,7 @@
 
 .logo-popover {
   position: absolute;
-  top: 45px;
+  top: 43px;
   left: 5;
 
   background: #fff;
@@ -112,7 +112,7 @@
 
 .popover {
   position: fixed;
-  top: 50px;
+  top: 43px;
   right: 0;
   background:  #ffffff;
   border-radius: 8px;
