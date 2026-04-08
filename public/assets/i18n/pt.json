@@ -9,9 +9,13 @@
     "EXCLUSIVE": "Exclusivo",
     "NEW": "Novo",
     "MISSION": "Missão",
+    "MSG_COMPANY": "Resistência",
     "BEST_OF_YEAR": "Melhor do Ano",
     "PLAY_NOW": "Jogue agora!",
+    "AGAIN": "Jogar novamente!",
+    "MSG_BT1": "Relembre",
     "BATTLE": "A batalha vai começar!",
+    "BATTLE_COMPANY": "Soldado imbatível!",
     "MISSION_TEXT": "Missão implacável!",
     "FRONTLINE": "Vá para a linha de frente!",
     "PS5": "Console PS5",
@@ -19,13 +23,18 @@
     "PS3": "Digital PS3"
   },
   "PRICE": {
-    "BT1": "R$ 480,00",
-    "BT4": "R$ 299,90",
-    "BT5": "R$ 199,90",
-    "BT_HARDLINE": "R$ 499,90"
+    "BT1": "R$ 254,96",
+    "BT4": "R$ 306,05",
+    "BT5": "R$ 306,05",
+    "BT_HARDLINE": "R$ 408,24",
+    "BT_AC": "R$ 510.43"
+
   },
    "LANG": {
     "Portuguese": "Português",
     "English": "Inglês"
+  },
+  "LOGO": {
+    "DESCRIPTION": "Logo da PlayStation"
   }
 }

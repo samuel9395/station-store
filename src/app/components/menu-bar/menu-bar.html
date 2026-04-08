@@ -1,12 +1,18 @@
 <div class="menu_container">
-  <div class="logo">
+  <div
+    class="logo"
+    (mouseenter)="showLogoPopover = true"
+    (mouseleave)="showLogoPopover = false">
     <img
       src="assets/images/ps-logo.png"
       alt=""
       width="140px"
       height="32px"
-      title="logo"
       >
+
+    <div class="logo-popover" *ngIf="showLogoPopover">
+      {{ 'LOGO.DESCRIPTION' | translate }}
+    </div>
   </div>
   <div class="item">
     <ul>

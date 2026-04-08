@@ -11,6 +11,8 @@ import { NgFor, NgIf } from '@angular/common'
 })
 export class MenuBar implements OnInit{
 
+  showLogoPopover = false;
+
   menuItems = [
     'MENU.GAMES',
     'MENU.ACCESSORIES',
