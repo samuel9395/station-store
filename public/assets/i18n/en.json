@@ -1,0 +1,31 @@
+{
+  "MENU": {
+    "GAMES": "Games",
+    "ACCESSORIES": "Accessories",
+    "NEWS": "News",
+    "SUPPORT": "Support"
+  },
+  "CARD": {
+    "EXCLUSIVE": "Exclusive",
+    "NEW": "New",
+    "MISSION": "Mission",
+    "BEST_OF_YEAR": "Best of the Year",
+    "PLAY_NOW": "Play now!",
+    "BATTLE": "The battle is about to begin!",
+    "MISSION_TEXT": "Relentless mission!",
+    "FRONTLINE": "Be on the front line!",
+    "PS5": "Console PS5",
+    "PS4": "Digital PS4",
+    "PS3": "Digital PS3"
+  },
+  "PRICE": {
+    "BT1": "$480.00",
+    "BT4": "$299.90",
+    "BT5": "$199.90",
+    "BT_HARDLINE": "$499.90"
+  },
+  "LANG": {
+    "Portuguese": "Portuguese",
+    "English": "Inglish"
+  }
+}

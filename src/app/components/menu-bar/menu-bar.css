@@ -63,3 +63,44 @@
 .item > ul > li > a:hover::after {
   width: 100%; /* A linha cresce ao passar o mouse */
 }
+
+.translate-bar {
+  display: flex;
+  box-sizing: border-box;
+  align-items: baseline;
+  right: 0;
+  margin-right: 30px;
+  overflow: visible;
+  background-color: transparent;
+}
+
+.img {
+  display: block;
+}
+
+.translate-bar {
+  position: relative;
+}
+
+.popover {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  background:  #ffffff;
+  border-radius: 8px;
+  padding: 8px 0;
+  width: 150px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.lang-option {
+  padding: 10px;
+  cursor: pointer;
+  color: #5c5c5c;
+  transition: background 0.2s;
+}
+
+.lang-option:hover {
+  background:  #2a3d9b;
+  color: white;
+}

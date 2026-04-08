@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MenuBar } from './components/menu-bar/menu-bar';
 import { Home } from './pages/home/home';
@@ -15,6 +15,12 @@ import { trigger, style, transition, animate } from '@angular/animations';
     ]),
   ],
 })
-export class App {
+export class App implements OnInit{
   protected readonly title = signal('station-store');
+
+  constructor () {}
+
+  ngOnInit(): void {
+    //
+  }
 }

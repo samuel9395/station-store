@@ -1,18 +1,37 @@
 <div class="menu_container">
   <div class="logo">
     <img
-      src="assets/ps-logo.png"
+      src="assets/images/ps-logo.png"
       alt=""
       width="140px"
       height="32px"
+      title="logo"
       >
   </div>
   <div class="item">
     <ul>
-      <li><a href="#">Jogos</a></li>
-      <li><a href="#">Acessórios</a></li>
-      <li><a href="#">Notícias</a></li>
-      <li><a href="#">Suporte</a></li>
+      <li *ngFor="let item of menuItems">
+        <a href="">{{ item | translate }}</a>
+      </li>
     </ul>
   </div>
+  <div class="translate-bar">
+    <div class="img" (click)="togglePopover()" style="cursor: pointer;">
+      <img
+        src="assets/images/lang-icon.png"
+        width="40"
+        height="40"
+      >
+    </div>
+
+    <div class="popover" *ngIf="showPopover">
+      <div class="lang-option" *ngFor="let lang of langItems" (click)="toggleLang(lang.code)">
+        <span>{{ lang.flag }}</span>
+        {{ lang.label | translate }}
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- <button (click)="changeLang('pt')">PT</button>
+    <button (click)="changeLang('en')">EN</button> -->

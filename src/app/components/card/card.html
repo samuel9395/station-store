@@ -1,18 +1,17 @@
 <a href="#" class="card_container">
   <img
     class="card_img"
-    [src]=[gameCover]
+    [src]="gameCover"
     alt=""
-    srcset=""
   >
+
   <app-card-label
-    gameLabel="{{gameLabel}}"
-    >
+    [gameLabel]="gameLabel | translate">
   </app-card-label>
+
   <app-card-pricing
-    priceTitle="{{priceTitle}}"
-    gameType="{{gameType}}"
-    gamePrice="{{gamePrice}}"
-    >
+    [priceTitle]="priceTitle | translate"
+    [gameType]="gameType | translate"
+    [gamePrice]="gamePrice | translate">
   </app-card-pricing>
 </a>
